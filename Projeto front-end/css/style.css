@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --background-site: #D95830;
+    --background-button: #DA785A;
+    --background-footer: #DE7756;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #FFF;
+    height: auto;
+    margin: auto;
+    max-width: 1920px;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    background-color: var(--background-site);
+}
+
+#logo {
+    width: 250px;
+    margin: 20px 5px 20px 15px;
+}
+
+.redes img{
+    width: 40px;
+    margin: 70px 15px 0px 15px;
+}
+
+header form{
+    margin: 70px 15px 0px 15px;
+}
+
+nav{
+    background-color: var(--background-site);
+}
+
+.nav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav a{
+    text-decoration: none;
+    padding: 10px;
+    color:#FFF
+}
